@@ -14,6 +14,8 @@
 
   get 'followers' => 'epicenter#followers'
 
+  get 'following' => 'epicenter#following'
+
   get 'all_users' => 'epicenter#all_users'
 
   resources :tweets
